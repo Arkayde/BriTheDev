@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Bri The Dev",
-    "currentPage": "page5.html",
+    "currentPage": "blogwordpresssecurity.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -1290,449 +1290,6 @@
         }
       ]
     },
-    "blog.html": {
-      "settings": {
-        "title": "6 Reasons Stay At Home Moms Should Consider Web Development",
-        "order": 3,
-        "meta_descr": ""
-      },
-      "components": [
-        {
-          "_styles": {
-            ".navbar": {
-              "min-height": "77px",
-              "transition": "all .3s",
-              "background": "@menuBgColor",
-              "& when (@transparent)": {
-                "background": "none"
-              },
-              "&.opened": {
-                "transition": "all .3s",
-                "background": "@menuBgColor !important"
-              },
-              ".dropdown-item": {
-                "padding": ".25rem 1.5rem"
-              },
-              ".navbar-collapse": {
-                "transition": "none",
-                "justify-content": "flex-end",
-                "z-index": "1",
-                "& when not (@showItems)": {
-                  "display": "none !important"
-                }
-              },
-              "&.collapsed": {
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  },
-                  "text-align": "center",
-                  "flex-direction": "column",
-                  "margin-left": "auto",
-                  "max-width": "20rem ",
-                  "height": "100vh",
-                  "justify-content": "flex-start",
-                  ".navbar-toggler": {
-                    "order": "-1",
-                    "align-self": "flex-end !important",
-                    "margin": "1rem 0 0 0"
-                  },
-                  ".navbar-collapse": {
-                    "flex-basis": "initial"
-                  }
-                },
-                "&:not(.opened)": {
-                  ".navbar-collapse": {
-                    "display": "none !important"
-                  }
-                },
-                ".dropdown-menu": {
-                  "background": "transparent !important",
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": ".25rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "55%"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem",
-                  "text-align": "center"
-                }
-              },
-              "@media (max-width: 991px)": {
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  },
-                  "text-align": "center",
-                  "flex-direction": "column",
-                  "margin-left": "auto",
-                  "max-width": "20rem ",
-                  "height": "100vh",
-                  "justify-content": "flex-start",
-                  ".navbar-toggler": {
-                    "order": "-1",
-                    "align-self": "flex-end !important",
-                    "margin": "1rem 0 0 0"
-                  },
-                  ".navbar-collapse": {
-                    "flex-basis": "initial"
-                  }
-                },
-                "&:not(.opened)": {
-                  ".navbar-collapse": {
-                    "display": "none !important"
-                  }
-                },
-                ".dropdown-menu": {
-                  "background": "transparent !important",
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": ".25rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "55%"
-                  }
-                },
-                ".navbar-logo": {
-                  "img": {
-                    "height": "3.8rem !important"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem",
-                  "text-align": "center"
-                },
-                ".navbar-brand": {
-                  "flex-shrink": "initial",
-                  "word-break": "break-word"
-                }
-              },
-              "&.navbar-short": {
-                "background": "@menuBgColor !important",
-                "min-height": "60px",
-                ".navbar-logo": {
-                  "img": {
-                    "height": "3rem !important"
-                  }
-                },
-                ".navbar-brand": {
-                  "padding": "0"
-                }
-              }
-            },
-            ".navbar-brand": {
-              "flex-shrink": "0",
-              "align-items": "center",
-              "margin-right": "0",
-              "padding": "0",
-              "transition": "all .3s",
-              "word-break": "break-word",
-              "z-index": "1",
-              ".navbar-caption": {
-                "line-height": "inherit !important"
-              },
-              ".navbar-logo a": {
-                "outline": "none"
-              }
-            },
-            ".dropdown-item.active,.dropdown-item:active": {
-              "background-color": "transparent"
-            },
-            ".navbar-expand-lg .navbar-nav .nav-link": {
-              "padding": "0"
-            },
-            ".nav-dropdown .link.dropdown-toggle": {
-              "margin-right": "1.667em",
-              "&[aria-expanded=\"true\"]": {
-                "margin-right": "0",
-                "padding": "0.667em 1.667em"
-              }
-            },
-            ".navbar.navbar-expand-lg .dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                ".dropdown-submenu": {
-                  "margin": "0",
-                  "left": "100%"
-                }
-              }
-            },
-            ".navbar .dropdown.open > .dropdown-menu": {
-              "display": "block"
-            },
-            "ul.navbar-nav": {
-              "flex-wrap": "wrap"
-            },
-            ".navbar-buttons": {
-              "text-align": "center"
-            },
-            "button.navbar-toggler": {
-              "outline": "none",
-              "width": "31px",
-              "height": "20px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "position": "relative",
-              "align-self": "center",
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "-webkit-transform": "rotate(45deg)",
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "-webkit-transform": "rotate(-45deg)",
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".navbar-dropdown": {
-              "padding": ".5rem 1rem",
-              "& when (@sticky)": {
-                "position": "fixed"
-              }
-            },
-            "a.nav-link": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "&:focus": {
-                "outline": "none"
-              },
-              "letter-spacing": "2px"
-            },
-            ".mbr-iconfont": {
-              "font-size": "1.5rem",
-              "padding-right": ".5rem"
-            },
-            ".nav-link:hover, .dropdown-item:hover": {
-              "color": "@itemsHoverColor !important"
-            },
-            "@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)": {
-              ".navbar-dropdown.collapsed.opened": {
-                "left": "auto",
-                ".navbar-collapse": {
-                  "flex-basis": "auto"
-                }
-              }
-            }
-          },
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#0a67a3\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/brithedev-headerlogo-786x429.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\">Freelance Web Designer &amp; Developer</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#features1-3\" data-app-selector=\".nav-link,.dropdown-item\">SERVICES</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#features5-9\" data-app-selector=\".nav-link,.dropdown-item\">\n                        ABOUT</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#gallery3-d\" data-app-selector=\".nav-link,.dropdown-item\">PORTFOLIO</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#clients1-f\" data-app-selector=\".nav-link,.dropdown-item\">MY CLIENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"blo.html\" data-app-selector=\".nav-link,.dropdown-item\">BLOG</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-md btn-white\" href=\"index.html#form1-j\">\n                    CONTACT ME\n                </a></div>\n      </div>\n    </nav>\n</section>",
-          "_cid": "qIOAoltC00",
-          "_anchor": "menu1-10",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".text": {
-              "letter-spacing": "0.03em",
-              "line-height": "1.7"
-            },
-            ".mbr-text": {
-              "width": "100%",
-              "height": "auto"
-            },
-            "@media (max-width: 991px)": {
-              ".row": {
-                "display": "flex",
-                "flex-direction": "column",
-                "align-items": "center"
-              },
-              ".content": {
-                "flex": "0 0 100%",
-                "max-width": "100%",
-                "margin-left": "0"
-              }
-            }
-          },
-          "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\"> \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">       \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mother-and-child-1024x683.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"rgb(7,9,21)\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n   <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div> \n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\" col-md-10 content\">\n                <h1 class=\"mbr-section-title mbr-light pb-3 mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">6 Reasons Stay At Home Moms Should Consider Web Development</h1>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam hic minima officiis labore. Autem iste maiores, impedit quasi, incidunt voluptatibus nihil a animi iure odio, inventore reprehenderit nobis architecto!\n                </p>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qITKE016xm",
-          "_anchor": "header4-11",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 col-sm-12 text-section\">\n                <h1 class=\"mbr-fonts-style mbr-title align-left pb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\" mbr-theme-style=\"display-2\">6 Reasons Stay At Home Moms Should Consider Web Development</h1>\n                <h1 class=\"mbr-fonts-style mbr-text align-left\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Being a mom is hard enough, no matter your profession (yes, I think Stay At Home Mom should be classified as a profession). Trying to juggle school meetings, doctors appointments, house chores, and the host of other responsibilities that come along with motherhood, is a challenge in and of itself. Throw in trying to learn a complex subject like web development, while starting a new career, and you end up with the recipe for the perfect storm.\n<br><br><div><br></div><div>\nI know first hand just how difficult it can be, trying to raise a family while also trying to obtain an education and career for yourself. But the end result, makes all of your hard work worth it. You might be asking yourself, “why should I pursue something that will likely make my life more difficult than it already is?” Well, I’ve got an answer, six to be exact.\n</div><div><br></div><div>\n</div><div><b>6. The Discomfort Is Temporary\n</b></div><div><span style=\"color: inherit; font-size: 1rem;\"></span><br></div><div>It’s human nature to avoid uncomfortable situations, hence the phrase, “motivation isn’t real.” Humans instinctively avoid new and stressful situations to preserve our own physical and mental health, so it’s only natural that you’d be apprehensive to take on the task of learning an entire skill set.\n</div><div><br></div><div>\n</div><div>However, this discomfort that you will most definitely experience, is only temporary.\n</div><div><br></div><div>\n</div><div>Arguably one of the most challenging things about being a web developer is that the field is always changing. It’s a career best suited for those who don’t mind learning… frequently. However, if you choose the school, or Development Boot Camp route, you’ll have a set time frame and goal to work towards. Once it’s over, you’ll walk away with the knowledge needed to immediately begin your career in web development. Of course, as technology advances, and design trends evolve, you’ll have to pick up new programming languages and skills. But your knowledge base will be much easier to build upon, seeing as you’ll have already mastered the basics.\n</div><div>\n</div><div><br></div><div><b>5. Get Paid To Learn\n</b></div><br><div>Once you’ve secured your first client, you’re essentially getting paid to learn. Of course, you should be honest with your client about your skill set. The last thing that you want to do is take on a project under false pretenses. You’ll ruin your reputation before you’ve even built one, if you choose to traverse such a shady route. However, if you’re forthcoming and your client has no qualms about your experience level, then you can take the job, and learn all of the unfamiliar parts as you go. And seeing as every client is different, you’re bound to find yourself in unfamiliar territory eventually.\n</div><div>\n</div><div><br></div><div>But that’s not the only way to get paid while you learn web development. Another approach is through taking advantage of government education initiatives.\n</div><div>\n</div><br><div>Truth be told, there are more jobs in the tech industry than their are qualified candidates to fill them. As a result, numerous policies have been put in place to help fill these in demand positions.\n</div><div>\n</div><div><br></div><div>For example, take the Tech Prep Education Program, set forth by the U.S. Department of&nbsp;<span style=\"color: inherit; font-size: 1rem;\">Education. The Tech Prep Education Program is essentially, a school-to-work program, designed to give grants to states for secondary and post-secondary tech education, resulting in a 2-year degree or certification for the enrolled students.&nbsp;</span></div><div>\n</div><br><div>The wonderful thing about this program is that it’s offered at many local community colleges, and many students receiving these tech grants will only pay a small fee – or in the best scenarios, receive their entire education for free. So while you’re technically not being paid to learn, you are receiving a near free education, as opposed to paying the average $3,000 tuition cost per semester.\n</div><div>\n</div><div><br></div><div>You’ll receive a valuable education without taking on the hefty debt usually accompanied with acquiring a degree. And with your new found skills, you’ll be able to take on small projects before you’ve even completed your education.\n</div><div>\n</div><div><br></div><div><b>4. It’s Mobile\n</b></div><br><div>Moms are pretty much always on the move. We’re at soccer games, school plays, dentist appointments, and play-dates. Even when we’re at home, we’re chasing toddlers, tidying up toys, and scaring away monsters. So if you’re going to learn a new skill, and start a new career, for the Stay At Home Mom, being able to do so, while remain on the go, is crucial.\n</div><div>\n</div><div><br></div><div>In this day and age, there are infinite ways to learn. Gone are the days of being shackled to a classroom and a desk. Thanks to the advancements of technology, students can receive their lesson plans and attend lectures right from their mobile devices. So whether you’re at a coffee shop, or waiting for your PTA meeting to begin, you can easily access that Udemy lesson that you’ve been meaning to watch.\n</div><div>\n</div><br><div>But that’s not all. Developing websites is mobile too. A good laptop can churn out just as many high quality websites as a desktop. You don’t have to confine yourself to your home office – although some days it will be preferable. Instead, you can code on your laptop, answer client emails, and research that JQuery effect that you can never remember, all while you’re away on your family’s annual vacation to Florida.\n</div><div>\n</div><br><div><b>3. It Makes For A Great Side Income</b>\n</div><div><br></div><div><span style=\"color: inherit; font-size: 1rem;\">There’s an old term in my community called, “hustling backwards.” You never, ever, so long as you live, want to hustle backwards. Hustling backwards will have you loosing money, and missing out on lucrative opportunitiesPennies and Vase. The great thing about the tech field is that, hustling backwards is a difficult task to accomplish.&nbsp;</span><br></div><div>\n</div><div><br></div><div>If you’re a Stay At Home Mom, you’re not going to want to waste time taking on extra tasks that serve no purpose to your family. If you’re going to invest in something, you want to invest in something that you know will turn a profit. And web development will help you to do that.\n</div><div><br></div><div><br></div><div>Often the people who most need a website, are too busy building their own successful businesses to spend time learning all of the skills required to develop their site. Luckily for you, they’ll be willing to pay you to take on the task.\n</div><div>\n</div><div><br></div><div>The average freelance web developer can make $50,000 a year. More experienced developers tend to hang around the $75,000 and up bracket, while some freelance web developers have even reported earning over $150,000 a year. Of course, building a high income won’t be easy. But there will always be someone in need of a website, which means that as long as you put in the effort, you’ll have a steady stream of money flowing in.\n</div><div>\n</div><div><br></div><div><b>2. You Can Pad Your Resume\n</b></div><div><br></div><div><span style=\"color: inherit; font-size: 1rem;\">One of the biggest problemwoman at interviews that Stay At Home Moms face when trying to reenter the workforce, is having a large gap in their work history. Padding that gap with relevant projects and training is important, if you want your resume to stand out. Learning web development will serve to help you fill in those gaps and increase your marketability.&nbsp;</span><br></div><div>\n</div><div><br></div><div>Showcasing what you’ve learned during your time as a Stay At Home Mom will help convey to potential employers that you are self-driven, motivated, and capable of high level multitasking. Additionally, you’re acquired knowledge may even give you a leg up over the competition.\n</div><div>\n</div><br><div>Completed freelance projects will also help boost your visibility. Freelancing shows your willingness to work, provides you with references, and gives you an extensive body of work to point to. When looking to land any job, having previous experience is always a bonus. So if you’re specifically looking for a full-time office job in the web development field, having numerous freelance projects under your belt will be key to getting your foot in the door. In fact freelancing may even lead directly to a full-time position with a company.\n</div><div>\n</div><br><div><b>1. You Can Teach Your Kids To Code</b></div><br><div>I know, I know. Isn’t it enough that you yourself managed to learn to code? Yes, yes it is. But hear me out. The projected growth for web developer positions between now and 2024 is at 26.6 percent. That equates to about 58,000 job openings, with\n&nbsp;<span style=\"color: inherit; font-size: 1rem;\">a median wage of about $66,000. Even better, the average education level of entry-level employees is a 2-year associates degree. So you can forget penny pinching to save for Juniors ivy league masters degree.&nbsp;</span></div><div>\n</div><br><div>The reality is, while many American’s currently find themselves out of work, there are a ton of job openings in this country that remain unfilled. The problem is that not enough people have the required skills necessary to enter these fields.\n</div><div>\n</div><div><br></div><div>If you’re already a Stay At Home Mom, then you’re likely teaching your child some sort of curriculum to get them prepared for school. If they’re already in school, I’m willing to bet that you’re still teaching them life skills, helping with projects, and correcting homework. Adding in a set time to sit down with your child and teach them code, would be a beneficial addition to their education, which will prepare them for a job in a high demand field.\n</div><div>\n</div><div><br></div><div>If your child takes to web development, they can even get a head start on their career and start freelancing on their own, building small websites for friends and family. Your child could have a working portfolio before they even take their SAT’s.\n</div><div>\n</div><div><br></div><div>Education is one of the greatest gifts that you can give a child. They can’t loose it, it can never be lost, and no one can take it from them. By learning the skills for yourself, and then teaching your child, you’ll be setting your kid on the fast track to success. Still not convinced? Look no further than Jaylen Bledsoe, a multimillionaire who started his web design business when he was only 13 years old, and within 2 years, transformed it into an international enterprise with over 100 employees. If that’s not reason enough to start teaching your kids to code, then I don’t know what is.\n&nbsp;</div><div><br></div><div><br></div><div>If you’re unsure of your ability to teach your kid such a difficult subject, there are numerous books, websites, apps, and other resources that can help you. MIT’s Scratch, and Scratch Jr. are excellent free resources that I’ve used with my own child.\n</div><div>\n</div><div><br></div><div>Hour of Code is another great resources for parents and teachers alike. And if you’re still unsure, or simply don’t have the available time, you can always research local tech summer camps and conventions for kids.</div></h1>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qITLewwpDc",
-          "_anchor": "content2-12",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_params": {
-            "socialFacebook": false,
-            "postsNumber": 5,
-            "socialGoogle": false,
-            "socialDisqus": true,
-            "shortName": "brithedev-com.disqus.com",
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
-          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>",
-          "alias": "facebook-comments",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "facebook-comments-block",
-          "_anchor": "facebook-comments-block-15"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "a:link": {
-              "text-decoration": "none"
-            },
-            ".icon-transition span": {
-              "color": "rgb(255, 255, 255)",
-              "display": "block",
-              "height": "3em",
-              "line-height": "3em",
-              "border-radius": "50%",
-              "border": "2px solid @circleColor",
-              "width": "3em",
-              "-webkit-transition": "all 0.3s ease-out 0s",
-              "transition": "all 0.3s ease-out 0s",
-              "font-size": "14px"
-            },
-            ".icon-transition span:hover": {
-              "background-color": "@circleHover"
-            },
-            ".inner-text": {
-              "line-height": "3em"
-            },
-            ".social-media": {
-              "display": "-webkit-flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "ul": {
-                "li": {
-                  "padding": "4px",
-                  "display": "inline-block"
-                },
-                "margin": "0",
-                "padding": "0",
-                "margin-bottom": "8px"
-              }
-            },
-            ".content-text,.inner-text": {
-              "color": "#c1c1c1"
-            }
-          },
-          "_name": "footer2",
-          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#0a67a3\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text=\"\" mbr-theme-style=\"display-7\" data-app-selector=\".content-text,.inner-text\"><i><a href=\"index.html\">BriTheDev.com</a></i></h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/Bri-The-Dev-360552574356026/\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"https://twitter.com/The_Arkayde\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"https://www.linkedin.com/in/brittney-williams-a80375119/\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\">\n                          </span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\" style=\"\"></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
-          "_anchor": "footer2-14",
-          "_isUserblock": true,
-          "_cid": "qITNU8maNr",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
     "blo.html": {
       "settings": {
         "title": "Blog",
@@ -2709,10 +2266,454 @@
         }
       ]
     },
-    "bl.html": {
+    "blogstahmwebdevelopment.html": {
+      "settings": {
+        "title": "6 Reasons Stay At Home Moms Should Consider Web Development",
+        "order": 3,
+        "meta_descr": "Have you ever considered working from home? Are you a stay at home mom? Well here are six reasons that you should consider a career in web development!"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "none"
+              },
+              "&.opened": {
+                "transition": "all .3s",
+                "background": "@menuBgColor !important"
+              },
+              ".dropdown-item": {
+                "padding": ".25rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "transition": "none",
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "text-align": "center",
+                  "flex-direction": "column",
+                  "margin-left": "auto",
+                  "max-width": "20rem ",
+                  "height": "100vh",
+                  "justify-content": "flex-start",
+                  ".navbar-toggler": {
+                    "order": "-1",
+                    "align-self": "flex-end !important",
+                    "margin": "1rem 0 0 0"
+                  },
+                  ".navbar-collapse": {
+                    "flex-basis": "initial"
+                  }
+                },
+                "&:not(.opened)": {
+                  ".navbar-collapse": {
+                    "display": "none !important"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "text-align": "center",
+                  "flex-direction": "column",
+                  "margin-left": "auto",
+                  "max-width": "20rem ",
+                  "height": "100vh",
+                  "justify-content": "flex-start",
+                  ".navbar-toggler": {
+                    "order": "-1",
+                    "align-self": "flex-end !important",
+                    "margin": "1rem 0 0 0"
+                  },
+                  ".navbar-collapse": {
+                    "flex-basis": "initial"
+                  }
+                },
+                "&:not(.opened)": {
+                  ".navbar-collapse": {
+                    "display": "none !important"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "word-break": "break-word"
+                }
+              },
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "&:focus": {
+                "outline": "none"
+              },
+              "letter-spacing": "2px"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            },
+            "@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)": {
+              ".navbar-dropdown.collapsed.opened": {
+                "left": "auto",
+                ".navbar-collapse": {
+                  "flex-basis": "auto"
+                }
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#0a67a3\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/brithedev-headerlogo-786x429.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\">Freelance Web Designer &amp; Developer</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#features1-3\" data-app-selector=\".nav-link,.dropdown-item\">SERVICES</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#features5-9\" data-app-selector=\".nav-link,.dropdown-item\">\n                        ABOUT</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#gallery3-d\" data-app-selector=\".nav-link,.dropdown-item\">PORTFOLIO</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#clients1-f\" data-app-selector=\".nav-link,.dropdown-item\">MY CLIENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"blo.html\" data-app-selector=\".nav-link,.dropdown-item\">BLOG</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-md btn-white\" href=\"index.html#form1-j\">\n                    CONTACT ME\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_cid": "qIOAoltC00",
+          "_anchor": "menu1-10",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".text": {
+              "letter-spacing": "0.03em",
+              "line-height": "1.7"
+            },
+            ".mbr-text": {
+              "width": "100%",
+              "height": "auto"
+            },
+            "@media (max-width: 991px)": {
+              ".row": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center"
+              },
+              ".content": {
+                "flex": "0 0 100%",
+                "max-width": "100%",
+                "margin-left": "0"
+              }
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\"> \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">       \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mother-and-child-1024x683.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"rgb(7,9,21)\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n   <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div> \n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\" col-md-10 content\">\n                <h1 class=\"mbr-section-title mbr-light pb-3 mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">6 Reasons Stay At Home Moms Should Consider Web Development</h1>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam hic minima officiis labore. Autem iste maiores, impedit quasi, incidunt voluptatibus nihil a animi iure odio, inventore reprehenderit nobis architecto!\n                </p>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "qITKE016xm",
+          "_anchor": "header4-11",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 col-sm-12 text-section\">\n                <h1 class=\"mbr-fonts-style mbr-title align-left pb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\" mbr-theme-style=\"display-2\">6 Reasons Stay At Home Moms Should Consider Web Development</h1>\n                <h1 class=\"mbr-fonts-style mbr-text align-left\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Being a mom is hard enough, no matter your profession (yes, I think Stay At Home Mom should be classified as a profession). Trying to juggle school meetings, doctors appointments, house chores, and the host of other responsibilities that come along with motherhood, is a challenge in and of itself. Throw in trying to learn a complex subject like web development, while starting a new career, and you end up with the recipe for the perfect storm.\n<br><br><div><br></div><div>\nI know first hand just how difficult it can be, trying to raise a family while also trying to obtain an education and career for yourself. But the end result, makes all of your hard work worth it. You might be asking yourself, “why should I pursue something that will likely make my life more difficult than it already is?” Well, I’ve got an answer, six to be exact.\n</div><div><br></div><div>\n</div><div><b>6. The Discomfort Is Temporary\n</b></div><div><span style=\"color: inherit; font-size: 1rem;\"></span><br></div><div>It’s human nature to avoid uncomfortable situations, hence the phrase, “motivation isn’t real.” Humans instinctively avoid new and stressful situations to preserve our own physical and mental health, so it’s only natural that you’d be apprehensive to take on the task of learning an entire skill set.\n</div><div><br></div><div>\n</div><div>However, this discomfort that you will most definitely experience, is only temporary.\n</div><div><br></div><div>\n</div><div>Arguably one of the most challenging things about being a web developer is that the field is always changing. It’s a career best suited for those who don’t mind learning… frequently. However, if you choose the school, or Development Boot Camp route, you’ll have a set time frame and goal to work towards. Once it’s over, you’ll walk away with the knowledge needed to immediately begin your career in web development. Of course, as technology advances, and design trends evolve, you’ll have to pick up new programming languages and skills. But your knowledge base will be much easier to build upon, seeing as you’ll have already mastered the basics.\n</div><div>\n</div><div><br></div><div><b>5. Get Paid To Learn\n</b></div><br><div>Once you’ve secured your first client, you’re essentially getting paid to learn. Of course, you should be honest with your client about your skill set. The last thing that you want to do is take on a project under false pretenses. You’ll ruin your reputation before you’ve even built one, if you choose to traverse such a shady route. However, if you’re forthcoming and your client has no qualms about your experience level, then you can take the job, and learn all of the unfamiliar parts as you go. And seeing as every client is different, you’re bound to find yourself in unfamiliar territory eventually.\n</div><div>\n</div><div><br></div><div>But that’s not the only way to get paid while you learn web development. Another approach is through taking advantage of government education initiatives.\n</div><div>\n</div><br><div>Truth be told, there are more jobs in the tech industry than their are qualified candidates to fill them. As a result, numerous policies have been put in place to help fill these in demand positions.\n</div><div>\n</div><div><br></div><div>For example, take the Tech Prep Education Program, set forth by the U.S. Department of&nbsp;<span style=\"color: inherit; font-size: 1rem;\">Education. The Tech Prep Education Program is essentially, a school-to-work program, designed to give grants to states for secondary and post-secondary tech education, resulting in a 2-year degree or certification for the enrolled students.&nbsp;</span></div><div>\n</div><br><div>The wonderful thing about this program is that it’s offered at many local community colleges, and many students receiving these tech grants will only pay a small fee – or in the best scenarios, receive their entire education for free. So while you’re technically not being paid to learn, you are receiving a near free education, as opposed to paying the average $3,000 tuition cost per semester.\n</div><div>\n</div><div><br></div><div>You’ll receive a valuable education without taking on the hefty debt usually accompanied with acquiring a degree. And with your new found skills, you’ll be able to take on small projects before you’ve even completed your education.\n</div><div>\n</div><div><br></div><div><b>4. It’s Mobile\n</b></div><br><div>Moms are pretty much always on the move. We’re at soccer games, school plays, dentist appointments, and play-dates. Even when we’re at home, we’re chasing toddlers, tidying up toys, and scaring away monsters. So if you’re going to learn a new skill, and start a new career, for the Stay At Home Mom, being able to do so, while remain on the go, is crucial.\n</div><div>\n</div><div><br></div><div>In this day and age, there are infinite ways to learn. Gone are the days of being shackled to a classroom and a desk. Thanks to the advancements of technology, students can receive their lesson plans and attend lectures right from their mobile devices. So whether you’re at a coffee shop, or waiting for your PTA meeting to begin, you can easily access that Udemy lesson that you’ve been meaning to watch.\n</div><div>\n</div><br><div>But that’s not all. Developing websites is mobile too. A good laptop can churn out just as many high quality websites as a desktop. You don’t have to confine yourself to your home office – although some days it will be preferable. Instead, you can code on your laptop, answer client emails, and research that JQuery effect that you can never remember, all while you’re away on your family’s annual vacation to Florida.\n</div><div>\n</div><br><div><b>3. It Makes For A Great Side Income</b>\n</div><div><br></div><div><span style=\"color: inherit; font-size: 1rem;\">There’s an old term in my community called, “hustling backwards.” You never, ever, so long as you live, want to hustle backwards. Hustling backwards will have you loosing money, and missing out on lucrative opportunitiesPennies and Vase. The great thing about the tech field is that, hustling backwards is a difficult task to accomplish.&nbsp;</span><br></div><div>\n</div><div><br></div><div>If you’re a Stay At Home Mom, you’re not going to want to waste time taking on extra tasks that serve no purpose to your family. If you’re going to invest in something, you want to invest in something that you know will turn a profit. And web development will help you to do that.\n</div><div><br></div><div><br></div><div>Often the people who most need a website, are too busy building their own successful businesses to spend time learning all of the skills required to develop their site. Luckily for you, they’ll be willing to pay you to take on the task.\n</div><div>\n</div><div><br></div><div>The average freelance web developer can make $50,000 a year. More experienced developers tend to hang around the $75,000 and up bracket, while some freelance web developers have even reported earning over $150,000 a year. Of course, building a high income won’t be easy. But there will always be someone in need of a website, which means that as long as you put in the effort, you’ll have a steady stream of money flowing in.\n</div><div>\n</div><div><br></div><div><b>2. You Can Pad Your Resume\n</b></div><div><br></div><div><span style=\"color: inherit; font-size: 1rem;\">One of the biggest problemwoman at interviews that Stay At Home Moms face when trying to reenter the workforce, is having a large gap in their work history. Padding that gap with relevant projects and training is important, if you want your resume to stand out. Learning web development will serve to help you fill in those gaps and increase your marketability.&nbsp;</span><br></div><div>\n</div><div><br></div><div>Showcasing what you’ve learned during your time as a Stay At Home Mom will help convey to potential employers that you are self-driven, motivated, and capable of high level multitasking. Additionally, you’re acquired knowledge may even give you a leg up over the competition.\n</div><div>\n</div><br><div>Completed freelance projects will also help boost your visibility. Freelancing shows your willingness to work, provides you with references, and gives you an extensive body of work to point to. When looking to land any job, having previous experience is always a bonus. So if you’re specifically looking for a full-time office job in the web development field, having numerous freelance projects under your belt will be key to getting your foot in the door. In fact freelancing may even lead directly to a full-time position with a company.\n</div><div>\n</div><br><div><b>1. You Can Teach Your Kids To Code</b></div><br><div>I know, I know. Isn’t it enough that you yourself managed to learn to code? Yes, yes it is. But hear me out. The projected growth for web developer positions between now and 2024 is at 26.6 percent. That equates to about 58,000 job openings, with\n&nbsp;<span style=\"color: inherit; font-size: 1rem;\">a median wage of about $66,000. Even better, the average education level of entry-level employees is a 2-year associates degree. So you can forget penny pinching to save for Juniors ivy league masters degree.&nbsp;</span></div><div>\n</div><br><div>The reality is, while many American’s currently find themselves out of work, there are a ton of job openings in this country that remain unfilled. The problem is that not enough people have the required skills necessary to enter these fields.\n</div><div>\n</div><div><br></div><div>If you’re already a Stay At Home Mom, then you’re likely teaching your child some sort of curriculum to get them prepared for school. If they’re already in school, I’m willing to bet that you’re still teaching them life skills, helping with projects, and correcting homework. Adding in a set time to sit down with your child and teach them code, would be a beneficial addition to their education, which will prepare them for a job in a high demand field.\n</div><div>\n</div><div><br></div><div>If your child takes to web development, they can even get a head start on their career and start freelancing on their own, building small websites for friends and family. Your child could have a working portfolio before they even take their SAT’s.\n</div><div>\n</div><div><br></div><div>Education is one of the greatest gifts that you can give a child. They can’t loose it, it can never be lost, and no one can take it from them. By learning the skills for yourself, and then teaching your child, you’ll be setting your kid on the fast track to success. Still not convinced? Look no further than Jaylen Bledsoe, a multimillionaire who started his web design business when he was only 13 years old, and within 2 years, transformed it into an international enterprise with over 100 employees. If that’s not reason enough to start teaching your kids to code, then I don’t know what is.\n&nbsp;</div><div><br></div><div><br></div><div>If you’re unsure of your ability to teach your kid such a difficult subject, there are numerous books, websites, apps, and other resources that can help you. MIT’s Scratch, and Scratch Jr. are excellent free resources that I’ve used with my own child.\n</div><div>\n</div><div><br></div><div>Hour of Code is another great resources for parents and teachers alike. And if you’re still unsure, or simply don’t have the available time, you can always research local tech summer camps and conventions for kids.</div></h1>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qITLewwpDc",
+          "_anchor": "content2-12",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "socialFacebook": false,
+            "postsNumber": 5,
+            "socialGoogle": false,
+            "socialDisqus": true,
+            "shortName": "brithedev-com.disqus.com",
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>",
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-15"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#0a67a3\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text=\"\" mbr-theme-style=\"display-7\" data-app-selector=\".content-text,.inner-text\"><i><a href=\"index.html\">BriTheDev.com</a></i></h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/Bri-The-Dev-360552574356026/\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"https://twitter.com/The_Arkayde\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"https://www.linkedin.com/in/brittney-williams-a80375119/\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\">\n                          </span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\" style=\"\"></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_anchor": "footer2-14",
+          "_isUserblock": true,
+          "_cid": "qITNU8maNr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "blognowwhat.html": {
       "settings": {
         "title": "So you want me to build your website… Now what?",
-        "order": 2
+        "order": 2,
+        "meta_descr": "Are you looking for a web developer? Well you've come to the right place. But here is what you need to know before we can begin."
       },
       "components": [
         {
@@ -3151,10 +3152,11 @@
         }
       ]
     },
-    "page5.html": {
+    "blogwordpresssecurity.html": {
       "settings": {
         "title": "New Threats Call For Heightened Wordpress Security",
-        "order": 1
+        "order": 1,
+        "meta_descr": "With new threats from hackers cropping up everyday, it is important that WordPress users monitor their websites security. "
       },
       "components": [
         {
