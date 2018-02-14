@@ -801,6 +801,18 @@
                 "alt": "SoulOPlayer Website Design",
                 "customStyle1": "display-7",
                 "caption": "SoulOPlayer",
+                "active": false
+              },
+              {
+                "tags": "Projects",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/javascriptcalculator-site-1366x655.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/javascriptcalculator-site-1366x655-800x383.jpg",
+                "alt": "JavaScript Calculator ",
+                "customStyle1": "display-7",
+                "caption": "JavaScript Calculator Project",
                 "active": true
               }
             ]
