@@ -825,6 +825,30 @@
                 "alt": "JavaScript Book Excercise c01",
                 "customStyle1": "display-7",
                 "caption": "JavaScript &amp; JQuery Book Excercise",
+                "active": false
+              },
+              {
+                "tags": "Projects",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/monsterstream-site2-1349x661.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/monsterstream-site2-1349x661-800x391.jpg",
+                "alt": "Monster Stream BootStrap Project",
+                "customStyle1": "display-7",
+                "caption": "Monster Stream BootStrap Project",
+                "active": false
+              },
+              {
+                "tags": "Small Business",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cleaningrescueteam-site-1351x660.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cleaningrescueteam-site-1351x660-800x390.jpg",
+                "alt": "Cleaning Rescue Team Website",
+                "customStyle1": "display-7",
+                "caption": "Cleaning Rescue Team",
                 "active": true
               }
             ]
