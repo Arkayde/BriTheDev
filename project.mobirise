@@ -873,6 +873,30 @@
                 "alt": "2pac Tribute Page Project",
                 "customStyle1": "display-7",
                 "caption": "2pac Tribute Page Project",
+                "active": false
+              },
+              {
+                "tags": "Demos",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/staticfive-site-1349x664.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/staticfive-site-1349x664-800x393.jpg",
+                "alt": "Static Five Demo Website",
+                "customStyle1": "display-7",
+                "caption": "Static Five Demo Website",
+                "active": false
+              },
+              {
+                "tags": "Small Business",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/kingston-breeding-site-1350x664.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kingston-breeding-site-1350x664-800x393.jpg",
+                "alt": "Kingston Breeding Website",
+                "customStyle1": "display-7",
+                "caption": "Kingston Breeding Website",
                 "active": true
               }
             ]
