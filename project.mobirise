@@ -849,6 +849,30 @@
                 "alt": "Cleaning Rescue Team Website",
                 "customStyle1": "display-7",
                 "caption": "Cleaning Rescue Team",
+                "active": false
+              },
+              {
+                "tags": "Small Business, eCommerce",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dreamshooters-screenshot-1348x660.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dreamshooters-screenshot-1348x660-799x391.jpg",
+                "alt": "Dream Shooters Website",
+                "customStyle1": "display-7",
+                "caption": "Dream Shooters eCommerce Site",
+                "active": false
+              },
+              {
+                "tags": "Projects",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/tribute-page-1350x595.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/tribute-page-1350x595-800x352.jpg",
+                "alt": "2pac Tribute Page Project",
+                "customStyle1": "display-7",
+                "caption": "2pac Tribute Page Project",
                 "active": true
               }
             ]
